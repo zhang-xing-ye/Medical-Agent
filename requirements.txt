@@ -1,0 +1,21 @@
+# Web 与异步网关 (替代原 Java Spring Boot)
+fastapi>=0.115.0
+uvicorn>=0.34.0
+python-multipart>=0.0.20
+python-dotenv>=1.0.1
+pydantic>=2.9.0
+
+# 异步数据库 ORM、Redis 内存库与原 Java 加密鉴权迁移
+sqlalchemy[asyncio]>=2.0.35
+aiomysql>=0.2.0
+aiosqlite>=0.20.0
+redis>=5.2.0
+PyJWT>=2.9.0
+cryptography>=43.0.0
+
+# 核心 Agent 编排与 MCP 客户端
+langgraph>=0.3.0
+langchain-core>=0.3.0
+langchain-deepseek>=0.1.2
+openai>=1.60.0
+mcp>=1.10.0,<2.0

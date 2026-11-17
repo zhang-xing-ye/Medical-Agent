@@ -1,0 +1,38 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and development tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.tools/
+.publish/
+*.egg-info/
+.idea/
+.vscode/
+
+# Runtime files, private uploads and model weights
+/storage/
+*.db
+*.sqlite*
+*.log
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
